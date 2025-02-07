@@ -72,7 +72,6 @@ export const NavLink = styled.a`
     }
 `;
 
-
 export const GitHubButton = styled.a`
   border: 1.8px solid ${({ theme }) => theme.primary};
   justify-content: center;
@@ -104,11 +103,9 @@ export const ButtonContainer = styled.div`
   align-items: center;
   padding: 0 6px;
   @media screen and (max-width: 768px) {
-    display: none;
+  display: none;
   }
 `;
-
-
 export const MobileIcon = styled.div`
   display: none;
   @media screen and (max-width: 768px) {
@@ -122,7 +119,6 @@ export const MobileIcon = styled.div`
     color: ${({ theme }) => theme.text_primary};
   }
 `
-
 export const MobileMenu = styled.div`
     display: flex;
     flex-direction: column;
@@ -142,7 +138,6 @@ export const MobileMenu = styled.div`
     z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
 
 `
-
 export const MobileMenuItems = styled.ul`
   display: flex;
   flex-direction: column;
@@ -153,7 +148,6 @@ export const MobileMenuItems = styled.ul`
   width: 100%;
   height: 100%;
 `
-
 export const MobileMenuLink = styled(LinkR)`
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
@@ -189,7 +183,6 @@ export const MobileMenuButton = styled.a`
     color: ${({ theme }) => theme.white};
   }
 `;
-
 export  const MobileLink = styled.a`
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
@@ -204,7 +197,6 @@ export  const MobileLink = styled.a`
     border-bottom: 2px solid ${({ theme }) => theme.primary};
   }
 `;
-
 export const MobileNavLogo = styled(LinkR)`
   width: 80%;
   padding: 0 6px;
